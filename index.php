@@ -1,3 +1,15 @@
+<?php
+	
+	// * IMPORTANT * Set your email information here
+	define('DESTINATION_EMAIL','danielwingo.dw@gmail.com');
+	define('MESSAGE_SUBJECT','PUSH Contact Form');
+	define('REPLY_TO', 'danielwingo.dw@gmail.com');
+	define('FROM_ADDRESS', 'danielwingo.dw@gmail.com');
+	define('REDIRECT_URL', 'index.php');
+	
+	require_once('validation.php');
+
+?>
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
@@ -53,26 +65,28 @@
                 <section class="section">
                   <h5 class="title">sign up for our beta testing in 2015</h5>
                   <div class="content" data-slug="panel1">
-                    <form>
+                    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+			<fieldset>
                       <div class="row collapse">
                         <div class="large-12 columns">
-                            <label>Your Name</label>
-                          <input type="text" id="yourName" placeholder="Jane Smith">
+                            <label for="name">Name:</label><?php echo @$name_error; ?>
+					<input type="text" id="name" name="name" value="<?php echo @$name ?>" class="required" />
                         </div>
                       </div>
                       <div class="row collapse">
                         <div class="large-12 columns">
-                        <label> Your Email</label>
-                          <input type="text" id="yourEmail" placeholder="jane@smithco.com">
+                        <label for="email">Email:</label><?php echo @$email_error; ?>
+					<input type="text" id="email" name="email" value="<?php echo @$email ?>" class="email required" />
                         </div>
                       </div>
                       <div class="row collapse">
                         <div class="large-12 columns">
-                        <label> Your Company's Name</label>
-                          <input type="text" id="yourEmail" placeholder="jane@smithco.com">
+                        <label> Your Company's Name</label><?php echo @$message_error; ?>
+                          <textarea cols="45" rows="7" id="message" name="message" class="required"><?php echo @$message ?></textarea>
                         </div>
                       </div>
-                      <button type="submit" class="radius button left">Submit</button>
+                      <input name="submitted" type="submit" value="Send" class="radius button left"/>
+                      </fieldset>
                     </form>
                   </div>
                 </section>         
