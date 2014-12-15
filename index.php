@@ -16,29 +16,18 @@
   <body>
 
      <section class="hero insert-shadow">
-         
-    <nav class="top-bar" data-topbar><!--experimental nav-->
+         <nav class="top-bar" data-topbar><!--experimental nav-->
         <ul class="title-area">
            
           <li class="name">
             <h1>
-              <a href="index.html">
+              <a href="index.php">
                 <img src="img/PUSH-logo_05.png" alt="logo" />
               </a>
             </h1>
           </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-        </ul>
- 
-        <section class="top-bar-section">
-          <ul class="right">
-            <li><a href="application.html" class="application-lk">make progress</a></li>
-            <li><a href="company.html" class="company-lk">push inc.</a></li>
-            <li><a href="support.html" class="support-lk">support</a></li>
-          </ul>
-        </section>
+    <?php include('inc/nav.inc.php'); ?>
       </nav><!--experimental nav-->
-      
       <div class="row general-content">
        <div class="large-6 columns"><!--start of logo column-->
         <div class="row"><!--start of logo-->
