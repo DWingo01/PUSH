@@ -1,3 +1,4 @@
+/*-----body-----*/
 body {
     font-family: 'bebas_neuebook';
     font-size: 18px;
@@ -10,35 +11,7 @@ body {
   color: white;
   letter-spacing: 0.0625em;
 }
-.js body { 
-	display: none; 
-}
-.panel {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #F37333;
-  margin-bottom: 1.25rem;
-  padding: 1.25rem;
-background-color: white;
-  color: white; 
-}
 
-.general-content{
-    margin-top: 50px;
-}
-
-.orange-highlight{
-    color: #F37333;
-    font-family: 'bebas_neuebold';
-    font-size: 60px;
-    line-height: 90%;
-}
-.orange-highlight-small{
-    color: #F37333;
-    font-family: 'bebas_neuebold';
-    font-size: 30px;
-    line-height: 90%;
-}
 p {
   color: white;
   font-family: inherit;
@@ -50,135 +23,12 @@ p {
   -webkit-font-smoothing: antialiased;
 }
 
-label {
-    font-size: 0.875rem;
-    cursor: pointer;
-    display: block;
-    font-weight: normal;
-    line-height: 1.5;
-    margin-bottom: 0;
-    color: white;
-    letter-spacing: 0.0625em;
-  /* Styles for required inputs */ 
-}
-  label.right {
-    float: none !important;
-    text-align: right; 
-  }
-  label.inline {
-    margin: 0 .4rem 1rem .2rem;
-    padding: 0.5625rem 0; 
-  }
-  label small {
-    text-transform: capitalize;
-    color: #676767; 
-  }
-.insert-shadow{
-    box-shadow: inset 0px 0px 0 2000px rgba(2, 46, 103, 0.6);
-}
-
-.large-heading{
-    font-family: 'bebas_neuebook';
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.2;
-    font-size: 2.5rem;
-    color: white;
-    letter-spacing: 0.0025em;
-    -webkit-font-smoothing: antialiased;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-}
-.title{
-    font-family: 'bebas_neuebook';
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.2;
-    font-size: 1.5rem;
-    color: #F37333;
-    letter-spacing: 0.0025em;
-    -webkit-font-smoothing: antialiased;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-}
-.shadow{
-    color: #d71b32;
-    line-height: 45px;
-    font-size: 2rem;
-    text-shadow: 2px 2px 3px rgba(231, 231, 231, 0.35);
-}
-
-#application .application-lk,
-#company .company-lk,
-#support .support-lk{
-    color:white;
-    font-size: 1rem;
-}
-
-.nav-padding{
-    padding-bottom: 60px;   
-}
-
 hr {
     text-align: center;
     margin: 0 auto;
     opacity: 0.5;
 }
-ul {
-    /*text-transform: uppercase;*/
-}
-ul.inline-list.right {
-    margin-top: 16px;
-text-transform: none;
-letter-spacing: 0.0625em;
-}
-ul.inline-list.right a {
-    color: white;
-}
-ul.inline-list.right a:hover {
-    color: rgba(0, 0, 0, 0.5);
-}
-h1 {
-    font-family: 'bebas_neuebold';
-    font-size: 32px;
-    color: #fff;
-    line-height: 28px;
-    margin-top: 16px;
-    margin-bottom: 0px;
-    text-align: center;
-}
 
-.sponsors{
-    font-family: 'bebas_neuebold';
-    font-size: 5rem;
-    color: #0c2a45;
-    text-align: left;
-    line-height: 75%;
-}
-
-.red-text{
-    color: #d71b32;
-}
-
-h2 {
-    font-family: 'bebas_neuebook';
-    color: #fff;
-    font-size: 60px;
-    line-height: 90%;
-}
-h3 {
-    font-family: 'bebas_neuebook';
-    font-size: 24px;
-    color: #F37333;
-    line-height: 10px;
-    font-weight: 900;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-h4 {
-    font-family: 'colaborate-regularregular';
-    color: #000;
-    font-size: 28px;
-    padding-top: 5px;
-}
 .columns.large-centered {
     padding-left: 5px;
     padding-right: 5px;
@@ -192,6 +42,33 @@ h4 {
     .columns.large-centered {
         font-size: 14px;
     }
+}
+
+.row .main-wrapper {
+    color: #fff;
+}
+.large-4 img {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+footer p,
+footer a {
+    font-size: 14px;
+}
+
+
+/*-----hero-----*/
+.hero {
+    padding-bottom: 250px;
+}
+.hero-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*----content box---*/
+.about-content {
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 .about-box {
     color: black;
@@ -225,6 +102,43 @@ h4 {
 .black-box p {
     font-weight: 900;
 }
+
+/*-----panel-----*/
+.panel {
+     margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    margin: 40px 0 40px 0;
+    border: none;
+    background-color:transparent;
+    color: white;
+}
+
+.panel p{
+    color: white;
+}
+.panel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F37333;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+background-color: white;
+  color: white; 
+}
+
+/*-----nav-----*/
+#application .application-lk,
+#company .company-lk,
+#support .support-lk{
+    color:white;
+    font-size: 1rem;
+}
+
+.nav-padding{
+    padding-bottom: 60px;   
+}
+
+/*-----buttons-----*/
 .secondary.small.button {
     background-color: transparent;
     color: #fff;
@@ -237,13 +151,6 @@ h4 {
 .secondary.small.button:hover {
     background-color: rgba(255, 255, 255, 0.5);
     color: #8c6239;
-}
-.row .main-wrapper {
-    color: #fff;
-}
-.about-content {
-    background-color: #fff;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 .button-group li .button {
     border: 0!important;
@@ -258,34 +165,6 @@ h4 {
 .button:hover {
     color: rgba(255, 255, 255, 0.7);
     background-color: transparent;
-}
-footer p,
-footer a {
-    font-size: 14px;
-}
-.hero {
-    padding-bottom: 250px;
-}
-.hero-content {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    
-}
-
-.panel {
-     margin-bottom: 1.25rem;
-    padding: 1.25rem;
-    margin: 40px 0 40px 0;
-    border: none;
-    background-color:transparent;
-    color: white;
-}
-
-.panel p{
-    color: white;
-}
-.large-4 img {
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 .radius.right.button {
     color: #000;
@@ -349,3 +228,147 @@ footer a {
 .radius.left.button:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+
+
+
+/*-----text-----*/
+ul {
+    /*text-transform: uppercase;*/
+}
+ul.inline-list.right {
+    margin-top: 16px;
+text-transform: none;
+letter-spacing: 0.0625em;
+}
+ul.inline-list.right a {
+    color: white;
+}
+ul.inline-list.right a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 32px;
+    color: #fff;
+    line-height: 28px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.sponsors{
+    font-family: 'bebas_neuebold';
+    font-size: 5rem;
+    color: #0c2a45;
+    text-align: left;
+    line-height: 75%;
+}
+
+.red-text{
+    color: #d71b32;
+}
+
+h2 {
+    font-family: 'bebas_neuebook';
+    color: #fff;
+    font-size: 60px;
+    line-height: 90%;
+}
+h3 {
+    font-family: 'bebas_neuebook';
+    font-size: 24px;
+    color: #F37333;
+    line-height: 10px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+h4 {
+    font-family: 'colaborate-regularregular';
+    color: #000;
+    font-size: 28px;
+    padding-top: 5px;
+}
+.large-heading{
+    font-family: 'bebas_neuebook';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2;
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 0.0025em;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+.title{
+    font-family: 'bebas_neuebook';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    color: #F37333;
+    letter-spacing: 0.0025em;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+.js body { 
+	display: none; 
+}
+
+.general-content{
+    margin-top: 50px;
+}
+
+.orange-highlight{
+    color: #F37333;
+    font-family: 'bebas_neuebold';
+    font-size: 60px;
+    line-height: 90%;
+}
+.orange-highlight-small{
+    color: #F37333;
+    font-family: 'bebas_neuebold';
+    font-size: 30px;
+    line-height: 90%;
+}
+
+/*----labels----*/
+label {
+    font-size: 0.875rem;
+    cursor: pointer;
+    display: block;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: white;
+    letter-spacing: 0.0625em;
+  /* Styles for required inputs */ 
+}
+  label.right {
+    float: none !important;
+    text-align: right; 
+  }
+  label.inline {
+    margin: 0 .4rem 1rem .2rem;
+    padding: 0.5625rem 0; 
+  }
+  label small {
+    text-transform: capitalize;
+    color: #676767; 
+  }
+
+/*----shadows-----*/
+
+.insert-shadow{
+    box-shadow: inset 0px 0px 0 2000px rgba(2, 46, 103, 0.6);
+}
+
+.shadow{
+    color: #d71b32;
+    line-height: 45px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 3px rgba(231, 231, 231, 0.35);
+}
+
