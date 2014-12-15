@@ -10,7 +10,9 @@ body {
   color: white;
   letter-spacing: 0.0625em;
 }
-
+.js body { 
+	display: none; 
+}
 .panel {
   border-style: solid;
   border-width: 1px;

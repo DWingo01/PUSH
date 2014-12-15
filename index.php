@@ -24,6 +24,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" href="favicon.png" />
     <script src="js/vendor/modernizr.js"></script>
+    <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>
   </head>
   <body>
 
@@ -46,7 +47,7 @@
  
           <div class="large-12 columns">
  
-            <img src="img/PUSH-logo_03.png"><br>
+            <img src="img/PUSH-logo_03.png" alt="logo"><br>
  
           </div>
             
@@ -82,7 +83,7 @@
                       <div class="row collapse">
                         <div class="large-12 columns">
                         <label> Your Company's Name</label><?php echo @$message_error; ?>
-                          <textarea cols="45" rows="7" id="message" name="message" class="required"><?php echo @$message ?></textarea>
+                          <textarea cols="45" rows="1" id="message" name="message" class="required"><?php echo @$message ?></textarea>
                         </div>
                       </div>
                       <input name="submitted" type="submit" value="Send" class="radius button left"/>
@@ -100,7 +101,7 @@
  
           <div class="large-12 columns">
  
-            <img src="img/phones.png"><br>
+            <img src="img/phones.png" alt="push phones"><br>
  
           </div>
             
@@ -124,7 +125,7 @@
     </section>
 
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation.min.js"></script>			    <script>$('body').fadeIn(1500);</script> 
     <script>
       $(document).foundation();
     </script>

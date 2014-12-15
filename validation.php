@@ -2,8 +2,13 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="theme-color" content="#F37333">
+<title>PUSH Beyond</title>
 <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
-        
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" href="favicon.png" />
+  
 <style type="text/css">
 .centerbutton{
 	margin: 0px auto;
@@ -19,8 +24,8 @@
   border-radius: 5px; 
 -moz-border-radius: 5px; 
 -webkit-border-radius: 5px; 
-border: 1px solid #A2783C;
-  background-color:#A2783C;
+border: 1px solid #F37333;
+  background-color:#F37333;
   cursor:pointer;
   font-family: 'bebas_neuebook';
   font-weight: normal;
@@ -45,11 +50,11 @@ border: 1px solid #A2783C;
 transition: all .5s ease; 
 }
 .backButton:hover{
-	font-family: 'novecento_sans_widelight';
+	font-family: 'bebas_neuebook';
     font-weight: normal;
     line-height: normal;
-	background-color:#C1A37A;
-	color: #EDEEE6;
+	background-color:white;
+	color: #F37333;
     -webkit-transition: all .5s ease;
 	-moz-transition: all .5s ease;
 	-ms-transition: all .5s ease;

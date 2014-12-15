@@ -5,6 +5,6 @@
           <ul class="right">
             <li><a href="application.php" class="application-lk">make progress</a></li>
             <li><a href="company.php" class="company-lk">push inc.</a></li>
-            <li><a href="support.php" class="support-lk">support</a></li>
+            <li><a href="support.php" class="support-lk">pricing</a></li>
           </ul>
         </section>

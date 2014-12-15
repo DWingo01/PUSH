@@ -12,6 +12,7 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" href="favicon.png" />
     <script src="js/vendor/modernizr.js"></script>
+    <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>
   </head>
   <body id="support">
 
@@ -95,6 +96,7 @@
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script>$('body').fadeIn(1500);</script>
     <script>
       $(document).foundation();
     </script>
